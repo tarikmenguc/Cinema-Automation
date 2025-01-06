@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="filmlistesi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="FrmBiletDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmbiletolustur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmBiletSorgula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmFilmDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmfilmkayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmFilmListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmoyuncukayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmSalonAtama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmsalonkayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmYonetmenKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmyonetmenlistesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="girisformu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmanaform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="olistearaci.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="OyuncuListeleri.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Oyunculistesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="salonlistesi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ylistearaci.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="yonetmenlistesi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
