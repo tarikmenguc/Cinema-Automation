@@ -1,77 +1,101 @@
-🎬 Cinema Automation (C#)
-🔹 Overview
-A desktop-based application developed in C# to automate key processes at a movie theater, including film scheduling, ticket sales, seat assignment, and reporting.
 
-📌 Features
-Manage Movies: Add, edit, delete movie listings and showtimes.
+<h1 align="center">🎬 Cinema Automation System</h1>
 
-Ticket Sales Workflow: Reserve seats, select showtimes, process transactions.
+<p align="center">
+  A desktop-based cinema management system built with C#.<br>
+  Handles movie scheduling, ticket sales, seat management, and reporting in a single platform.
+</p>
 
-Seat Management: View current seat availability in real-time and assign seats automatically or manually.
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C%23-178600?style=for-the-badge&logo=c-sharp" alt="language" />
+  <img src="https://img.shields.io/badge/Platform-Windows%20Forms-blue?style=for-the-badge" alt="platform" />
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="status" />
+</p>
 
-Reports Module: Generate end-of-day reports for sales, occupancy, and revenue analysis.
 
-🛠️ Technologies & Tools
-Language: C# (.NET Framework or .NET Core)
 
-UI Framework: Windows Forms (or WPF if applicable)
 
-Data Storage: Local database (like SQL Server LocalDB or SQLite)
 
-Architecture Patterns: Followed MVC or layered architecture for maintainability
+---
 
-🚀 Installation & Setup
-Clone the repository:
+## 🚀 Features
 
-bash
-Kopyala
-Düzenle
+- 🎞️ **Movie Management** – Add, edit, and delete movie entries
+- 🕒 **Showtime Scheduling** – Assign films to theaters and time slots
+- 🎟️ **Ticket Sales System** – Reserve seats, process payments
+- 🪑 **Seat Mapping** – Visual representation of available/occupied seats
+- 📊 **Daily Reports** – Generate reports for sales and occupancy
+
+---
+
+## 🧰 Tech Stack
+
+| Category        | Technology        |
+|----------------|-------------------|
+| 💻 Language     | C#                |
+| 🖥️ UI Framework | Windows Forms     |
+| 🗄️ Database     | SQL Server / LocalDB |
+| 🧱 Architecture | Layered (UI - BLL - DAL) |
+
+---
+
+## 🛠️ Setup Instructions
+
+```bash
+# 1. Clone the repository
 git clone https://github.com/tarikmenguc/Cinema-Automation.git
-Open the solution file (.sln) in Visual Studio.
 
-Restore any NuGet packages.
+# 2. Open in Visual Studio
+# 3. Restore NuGet packages
+# 4. Check DB connection in app.config
+# 5. Build and run the solution (F5)
+````
 
-Ensure the database connection string is correctly set in app.config (or appsettings.json).
+> **Note:** Make sure you have **.NET Framework** and **SQL Server** installed.
 
-Build (F6) and Run (F5).
+---
 
-🧪 Usage Guide
-Upon launch, you'll see the main dashboard with options: Movies, Showtimes, Seats, and Reports.
+## 📁 Project Structure
 
-Navigate to Movies to add or modify film entries and schedules.
+```
+Cinema-Automation/
+├── UI/                # Windows Forms screens
+├── Models/            # Movie, Seat, Showtime, Ticket
+├── DataAccess/        # Database operations
+├── Reports/           # Report generation logic
+├── app.config         # Configuration file
+└── Program.cs         # Entry point
+```
 
-Go to Showtimes to assign film times to different halls.
+---
 
-Use Seat Selection to pick seats during ticket sale.
+## 🔧 Possible Improvements
 
-Visit Reports to export details such as:
+* 🔐 User authentication system
+* 🌐 Online booking integration
+* 📱 Mobile version with .NET MAUI or Xamarin
+* 🧪 Unit testing with NUnit
 
-Tickets sold (daily/monthly)
+---
 
-Revenue figures
+## 🤝 Contribution
 
-Seat occupancy rates
+Contributions are welcome!
+Feel free to fork the repo, create a branch, and submit a pull request.
 
-🗂️ Project Structure
-mathematica
-Kopyala
-Düzenle
-/CinemaAutomation
-  /UI               – Windows Forms or WPF screens
-  /Models           – C# classes for Movie, Showtime, Ticket, Seat
-  /DataAccess       – Database CRUD operations
-  /Reports          – Report generation logic (e.g., CSV, PDF if implemented)
-  Program.cs        – Entry point
-  CinemaAutomation.sln
-✅ How to Contribute
-Contributions are welcome! Feel free to:
+---
 
-Add features (e.g., user authentication, seat map printing)
+## 📄 License
 
-Improve error handling and data validation
+This project is licensed under the [MIT License](LICENSE).
 
-Refactor code for better design (e.g., using MVVM)
+---
 
-Write unit tests
-Fork the repo, create a feature branch, and submit a pull request.
+## 👤 Author
+
+* GitHub: [@tarikmenguc](https://github.com/tarikmenguc)
+
+---
+
+```
 
